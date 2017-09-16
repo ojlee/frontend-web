@@ -1,9 +1,13 @@
-var mult1 = prompt('곱하기 첫번째 값');
-var mult2 = prompt('곱하기 두번째 값');
 
-function outmult(mult1, mult2){
-  var result = mult1 * mult2;
-  console.log("곱한값 = " + result );
+function gugudan(){
+  for(var i = 1; i < 10; i++){
+    console.log(i + "단\n");
+    for(var j = 1; j < 10; j++){
+      var result = i*j;
+
+      console.log(i + " * " + j + " = " + result);
+    }
+  }
 
 }
-outmult(mult1, mult2);
+outgugudan();
