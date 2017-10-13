@@ -12,6 +12,8 @@ function done(result){
 
     str += '<h2>' + result.data[i].titleKo + '</h2>'
     str += '<img src=' + result.data[i].photo.fullname + ' width="100" >'
+    str += '<h3> 랭킹 : ' + result.data[i].rank.ranking + ' 위 </h3>'
+    str += '<h3> 점유율 : ' + result.data[i].rank.marketShare + ' % </h3>'
   }
 
   info.innerHTML = str;
