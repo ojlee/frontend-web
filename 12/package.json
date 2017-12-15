@@ -1,0 +1,17 @@
+{
+  "name": "class12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "byte.js",
+  "dependencies": {
+    "pretty-bytes": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node byte.js",
+    "gulp:test": "gulp default"
+  },
+  "author": "",
+  "license": "ISC"
+}
